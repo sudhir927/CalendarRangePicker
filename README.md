@@ -24,3 +24,19 @@ dependencyResolutionManagement {
         maven { url 'https://jitpack.io' }
     }
 }
+## 📦 Installation
+
+Add this dependency in your app-level `build.gradle`:
+
+```gradle
+dependencies {
+    implementation 'com.github.sudhir927:CalendarRangePicker:1.0.0'
+}
+
+// Example usage of CalendarRangePicker
+val calendarPicker = CalendarRangePicker(context)
+calendarPicker.setOnDateSelectedListener { startDate, endDate ->
+    // Handle selected dates
+}
+calendarPicker.show()
+
