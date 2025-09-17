@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="calendar_selected">#FF6200EE</color>
+    <color name="calendar_range">#F3E5F5</color>
+    <color name="calendar_today">#E8F5E9</color>
+    <color name="calendar_disabled">#EEEEEE</color>
+</resources>
